@@ -1,0 +1,394 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Rubik', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+header{
+	width: 100%;
+	float: left;
+	background: #000;
+	position: fixed;
+	z-index: 9;
+}
+header .main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header ul li{
+	float: left;
+	list-style: none;
+
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 300;
+	padding: 15px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+header a:hover{
+	background: #ccc;
+	color: #000;
+}
+header .search ion-icon{
+	font-size: 20px;
+}
+.search a{
+	padding: 12px 21px;
+}
+header li ul li{
+	float: none;
+	/* background: skyblue; */
+}
+header li ul{
+	 display: none; 
+	position: absolute;
+	background: #fff;
+	left: 0;
+	top: 100%;
+}
+header li li ul{
+	display: none; 
+   position: absolute;
+   background: #fff;
+   left: 0;
+   top: 100%;
+}
+header li:hover ul{
+	display: block;
+}
+header li{
+	position: relative;
+}
+header li li{
+	position: relative;
+}
+header ul ul a{
+	color: #000;
+	padding: 8px 0px;
+	text-transform: capitalize;
+	background: skyblue;
+    width: 100%;
+}
+header ul ul ul a {
+    color: black;
+    padding: 8px 16px;
+    text-transform: capitalize;
+    /* margin-left: 160px; */
+    width: 200%;
+    background: indianred;
+}
+/* header ul ul a:hover{
+	width: 100%;
+} */
+/* header ul ul ul a:hover{
+	width: 70%;
+}
+header li li:hover ul{
+	display: block;
+} */
+header ul li ion-icon{
+	padding-left: 2px;
+}
+
+section{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+section img{
+	width: 100%;
+	display: block;
+}
+section .chicago{
+	position: absolute;
+	top: 84%;
+	left: 40%;
+}
+.chicago h2{
+	font-size: 24px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-weight: 500;
+}
+.chicago p{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	font-weight: 500;
+}
+.container{
+	width: 56%;
+	margin: auto;
+}
+.container h2{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.container span{
+	text-align: center;
+	display: block;
+	font-weight: 300;
+	font-size: 17px;
+	margin: 10px 0px;
+}
+.container p{
+	font-size: 13px;
+	line-height: 1.5;
+	text-align: justify;
+	margin-top: 11px;
+}
+.band {
+	margin-top: 50px;
+}
+.boxes{
+	width: 100%;
+	display: flex;
+	margin-top: 30px;
+}
+.boxes img{
+	width: 100%;
+	display: block;
+	margin-top: 15px;
+}
+.boxes h3 {
+	font-size: 16px;
+	text-align: center;
+	font-weight: 300;
+	padding: 15px 0px;
+}
+.box1, .box2, .box3{
+	margin: 50px;
+}
+.tour{
+	width: 100%;
+	float: left;
+	background: #000;
+}
+.tour h2 {
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 50px;
+}
+.tour p {
+	color: #fff;
+	text-align: center;
+	font-size: 13px;
+	margin-top: 12px;
+	margin-bottom: 25px;
+	font-weight: 300;
+}
+section .tour .tour-section{
+	width: 56%;
+	margin: auto;
+}
+.book {
+	border-bottom: 1px solid lightgray;
+	width: 100%;
+	height: 30px;
+	float: left;
+	padding-left: 10px;
+	padding-bottom: 35px;
+	background: #fff;
+}
+.book a{
+	display: block;
+}
+.book p{
+	text-align: left;
+	color: #000;
+	font-size: 15px;
+}
+.book span{
+	background: red;
+	padding: 1px;
+	color: #fff;
+}
+.tour-section .book:nth-child(3){
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.tour-section .book:nth-child(3) span {
+	font-size: 20px;
+	margin-right: 20px;
+	background: black;
+	height: 25px;
+	width: 25px;
+	margin-top: 3px;
+	border-radius: 50%;
+	color: white;
+	padding-left: 6px;
+}
+.city{
+	width: 100%;
+	display: flex;
+	column-gap: 10px;
+	padding-bottom: 100px;
+	padding-top: 30px;
+}
+.city img{
+	width: 100%;
+	display: block;
+}
+.city > div{
+	width: 33.3333%;
+	padding-bottom: 13px;
+}
+.city .newyork, .paris, .sanfran{
+	background: white;
+}
+.city h4 {
+	font-size: 15px;
+	padding: 10px;
+	font-weight: 500;
+}
+.city span {
+	font-size: 16px;
+	font-weight: 100;
+	padding: 10px;
+}
+.city p {
+	color: #000;
+	font-size: 14px;
+	text-align: justify;
+	padding: 10px;
+	line-height: 1.6;
+}
+.city a{
+	color: #fff;
+	background: #000;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 9px;
+	text-transform: capitalize;
+	display: inline-block;
+	margin-left: 12px;
+}
+.city a:hover{
+	background: #ccc;
+	color: #000;
+}
+.form-section{
+	width: 100%;
+	float: left;
+}
+.form-section h3{
+	font-size: 22px;
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 20px;
+	font-weight: 450;
+}	
+.form-section p{
+	font-size: 13px;
+	text-align: center;
+	font-weight: 200;
+}
+.container2{
+	width: 56%;
+	margin: 45px auto 100px auto;
+	display: flex;
+}
+
+.add{
+	width: 50%;
+
+}
+.add a {
+	text-align: left;
+	text-decoration: none;
+	color: #000;
+	font-size: 15px;
+	line-height: 1.5;
+	padding-bottom: 1px;
+}
+.add p ion-icon{
+	font-size: 14px;
+}
+form{
+	width: 50%;
+}
+
+/*change placeholder property*/
+form input::placeholder{
+	font-size: 18px;
+	color: black;
+	font-weight: lighter;
+}
+form #name, #email{
+	width: 49%;
+	float: left;
+	height: 35px;
+	padding-left: 5px;
+}
+form #name{
+	margin-right: 2%;
+}
+form #message{
+	width: 100%;
+	height: 35px;
+	margin-top: 8px;
+	padding-left: 5px;
+}
+#button {
+	padding: 5px 10px;
+	font-size: 15px;
+	color: white;
+	background: black;
+	margin-left: 317px;
+	margin-top: 5px;
+}
+
+.icon .icon-list{
+	text-align: center;
+	margin: 50px auto 0px auto;
+}
+.web p {
+	text-align: center;
+	font-size: 17px;
+	font-weight: lighter;
+	margin: 20px auto 70px auto;
+}
+.web a{
+	text-decoration: none;
+}
+footer{
+	width: 100%;
+	float: left;
+}
+.sub-cat {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 100%;
+}
+.sub-menu li:hover .sub-cat{
+	display: block;
+}
+.sub-menu li{
+	position: relative;
+}
+/* 
+.sub-cat ul {
+    display: none;
+    position: absolute;
+} */
+
+

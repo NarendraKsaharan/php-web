@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    text-decoration: none;
+}
+body {
+	background: #ff66ff0f;
+}
+.container{
+    width: 100%;
+    float: left;
+}
+.container .left-container{
+    width: 19%;
+    float: left;
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+a{
+    color: white;
+}
+nav ul li{
+    padding: 15px 20px 15px 5px;;
+    margin-left: 40px;
+    list-style: none;
+}
+ion-icon {
+	margin-right: 25px;
+	margin-bottom: -2px;
+}
+.left-list {
+	background: white;
+	border-radius: 50px 0 0 50px;
+}
+.left-list ion-icon {
+	color: blueviolet;  
+}
+.left-list a {
+	color: black;
+    text-align: center;
+}
+h1 {
+	font-weight: 400;
+	font-size: 26px;
+	margin-left: 40px;
+	padding: 20px 5px;
+}
+nav{
+    margin-top: 30px;
+}
+.right-container {
+	width: 81%;
+	float: left;
+}
+header {
+	width: 100%;
+	float: left;
+	background: white;
+	box-shadow: 1px 1px 1px 1px lightgray;
+	padding: 11px;
+}
+img{
+    width: 100%;
+    display: block;
+}
+.img{
+    width: 13%;
+    float: right;
+}
+.img img {
+	width: 25%;
+	border-radius: 10%;
+	float: left;
+}
+.img p {
+	width: 75%;
+	float: left;
+	text-align: center;
+}
+header a ion-icon {
+	color: black;
+	margin-top: 14px;
+	font-size: 23px;
+	margin-left: 15px;
+}
+section{
+    width: 100%;
+    float: left;
+}
+.add-new {
+	width: 93%;
+	margin: auto;
+	background-color: white;
+	box-shadow: 1px 1px 5px 0px lightgray;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 10px;
+	padding: 9px;
+}
+.add-new a {
+	color: black;
+	padding: 5px 20px;
+	background: #f1f1f1;
+	border-radius: 15px;
+}
+th {
+    padding: 10px 20px;
+}
+td {
+    padding: 7px 20px;
+    text-align: center;
+    background: white;
+    border-radius: 12px;
+}
+table {
+    width: 90%;
+    margin: auto;
+}
+footer{
+	width: 100%;
+	float: left;
+	margin-top: 50px
+}
+.footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 1px 1px 5px 0px lightgray;
+    padding: 11px;
+    border-radius: 10px;
+}
